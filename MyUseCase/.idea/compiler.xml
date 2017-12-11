@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Glossary" />
+        <module name="MyUseCase" />
+        <module name="Template" />
+        <module name="TestAutoGlos" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Glossary" target="1.5" />
+      <module name="MyUseCase" target="1.5" />
+      <module name="Template" target="1.5" />
+      <module name="TestAutoGlos" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
